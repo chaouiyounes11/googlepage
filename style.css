@@ -33,6 +33,18 @@ section a
   padding: 0.5em 0.5em 0.5em 0.5em;
   background-color: rgb(224, 224, 224);
 }
+
+div
+
+{
+  width: 26%;
+  margin: auto;
+  margin-top: 2em;
+}
+p
+{
+  text-align: center;
+}
 section a:hover
 {
   border: 2px outset rgb(224, 224, 224);
@@ -40,10 +52,22 @@ section a:hover
   font-weight: bold;
 }
 
-div
-
+footer
 {
-  width: 25%;
-  margin: auto;
-  margin-top: 2em;
+
+  border: 2px solid rgb(224, 224, 224);
+  background-color: rgb(224, 224, 224);
+  margin-top: 14em;
+
+
+}
+footer a:link
+{
+  text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+aside
+{
+  float: right;
 }
