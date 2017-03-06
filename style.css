@@ -1,7 +1,14 @@
 header
 {
   text-align: right;
+  margin-top: 1.5em;
 }
+header a:link
+{
+  color: grey;
+  text-decoration: none;
+}
+
 
 section img
 {
@@ -10,6 +17,19 @@ section img
   margin-left: auto;
   margin-right: auto;
 }
+
+.signin
+{
+  border: 2px solid blue;
+  background-color: rgb(0, 0, 255);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 1em;
+  padding: 4px;
+}
+
+
 
 section input
 {
