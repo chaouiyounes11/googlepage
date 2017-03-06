@@ -2,3 +2,48 @@ header
 {
   text-align: right;
 }
+
+section img
+{
+  display: block;
+  margin-top: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section input
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding : 0.5em 25em 0.5em 0em;
+  border: 1px solid grey;
+  border-radius: 1px;
+  box-shadow: 3px 3px 2px silver;
+  text-align: left;
+}
+
+section a
+{
+  border: 2px solid rgb(224, 224, 224);
+  display: inline;
+  text-align: center;
+  color: rgb(96, 96, 96);
+  margin: auto;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: rgb(224, 224, 224);
+}
+section a:hover
+{
+  border: 2px outset rgb(224, 224, 224);
+  color: black;
+  font-weight: bold;
+}
+
+div
+
+{
+  width: 25%;
+  margin: auto;
+  margin-top: 2em;
+}
