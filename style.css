@@ -18,6 +18,21 @@ header a:visited
   color: grey;
   }
 
+  .gmail .images
+  {
+  text-decoration: none;
+  }
+
+  .gmail:hover
+  {
+  text-decoration: underline;
+  }
+
+  .images:hover
+  {
+  text-decoration: underline;
+  }
+
 .material-icons:hover
   {
   color:black;
@@ -42,7 +57,7 @@ section img
   padding-left: 9px;
   padding-right: 9px;
   }
-
+/* attribute:visited plays when the button has been clicked"*/
 .signin:visited
   {
   color:white;
