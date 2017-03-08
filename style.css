@@ -4,6 +4,7 @@ header
   margin-bottom: 3em;
   margin-right: 1em;
   color:black;
+  word-spacing: 6.5px;
   }
 
 
@@ -36,6 +37,8 @@ header a:visited
 .material-icons:hover
   {
   color:black;
+  position: relative;
+  top: 6px;
   }
 
 section img
@@ -69,6 +72,7 @@ section h2
   padding: 3.5px;
   padding-left: 9px;
   padding-right: 9px;
+  word-spacing: normal;
   }
 
 /* attribute:visited plays when the button has been clicked"*/
@@ -129,7 +133,8 @@ footer
   background-color: rgb(242, 242, 242);
   margin-top: 14em;
   color: black;
-  font-size: 15px;
+  font-size: 13.5px;
+  word-spacing: 12px;
   }
 
 footer a:link
